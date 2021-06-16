@@ -10,6 +10,8 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <!-- Google Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,24 +21,22 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/animate.css">
-
   </head>
   <body>
 
-    <div class="bg-white  primary-color container-fluid " style="height: 5em; position: fixed; z-index: 2; ">
-      <div class="row flex-nowarp justify-content-around  align-items-center">
-       <div class=" ">
-        <a class="navbar-brand d-flex row " href="#">
-          <h1 class="text-white " style="font-family: 'Monoton', cursive;">Contrade <span class="badge bg-secondary wow  animate__animated  animate__rubberBand  infinite slower ml-4">CEC</span></h1>
+    <div class=" container-fluid  nav1" >
+       <div class="row flex-nowarp justify-content-around  align-items-center">
 
-          <!-- <img src="img/Contrade Logo12.gif" height="70"  class=" animated bounce infinite slower " > -->
-          
+       
+        <a class=" col-4  navbar-brand d-flex row " href="#">
+          <h1 class="text-white font " >Contrade <span class="badge bg-secondary wow  animate__animated  animate__rubberBand  infinite slower ml-4 font " style="box-sizing: border-box;">CEC</span></h1>
+          <!-- <img src="img/Contrade Logo12.gif" height="70"  class=" animated bounce infinite slower " > --> 
         </a>
-       </div>
-    <div  class=" animate__animated  animate__backInRight   " style="border-right: 1px solid gray ; height: 5ex;" > <i class="fas fa-phone-volume text-white  animate__pulse   animate__animated animate__rubberBand  animate__infinite infinite"></i> <span class=" text-white pr-5   ">Contact US Now</span><p class="pl-3 text-white">10005720959</p> 
-    </div>
-    <!-- <div class="  dimin2   "  > <i class="fas fa-map-marker-alt text-light"></i> <span class=" text-white " >15 El Kashafa st. Dokki. Giza </span> -->
-      <div class=" animate__animated  animate__backInRight    dimin2 "> <i class="fas fa-map-marker-alt text-light   animate__animated animate__rubberBand  animate__infinite infinite"></i> <span class=" text-white " >15 El Kashafa st. Dokki. Giza </span></div>
+       
+
+     <div  class="  col-4 animate__animated  animate__backInRight  font1" style="border-right: 1px solid gray ; height: 5ex;" > <i class="fas fa-phone-volume text-white  animate__pulse   animate__animated animate__rubberBand  animate__infinite infinite "></i> <span class=" text-white    ">Contact US Now : 10005720959</span>
+     </div>
+      <div class="  col-3  animate__animated  animate__backInRight   font1  "> <i class="fas fa-map-marker-alt text-light   animate__animated animate__rubberBand  animate__infinite infinite"></i> <span class=" text-white " >15 El Kashafa st. Dokki. Giza </span></div>
       </div>
     
     </div>
@@ -44,7 +44,7 @@
     <!-- navbar-dark default-color   elegant-color  -->
 
     <!--Navbar -->
-<nav class=" mb-0 navbar navbar-expand-lg w-100 " style="position: fixed; z-index: 2; margin-top: 5em;"  >
+<nav class=" mb-0 navbar navbar-expand-lg w-100 nav2 " >
   <a class="navbar-brand     animate__animated  animate__pulse  animate__infinite infinite " href="#" style="color: whitesmoke;"><strong><i class="fas fa-home"></i> Contrade</strong></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
     aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,7 +108,7 @@
 
 
 <!--Carousel Wrapper-->
-<div id="carousel-example-2" class="carousel slide carousel-fade  " data-ride="carousel"  >
+<div id="carousel-example-2" class="carousel slide carousel-fade  mb-5" data-ride="carousel"  >
   <!--Indicators-->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -120,8 +120,8 @@
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="view">
-        <img class="d-block w-100 " src="img/1 (1).JPG"
-          alt="First slide" style="height: 750px;">
+        <img class="d-block w-100  image" src="img/1 (1).JPG"
+          alt="First slide" >
         <div class="mask rgba-black-light"></div>
       </div>
       <div class="carousel-caption">
@@ -132,8 +132,8 @@
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100" src="img/WhatsApp Image 2020-05-16 at 11.28.47 AM.jpeg"
-          alt="Second slide"  style="height: 750px;">
+        <img class="d-block w-100   image" src="img/WhatsApp Image 2020-05-16 at 11.28.47 AM.jpeg"
+          alt="Second slide"  >
         <div class="mask rgba-black-strong"></div>
       </div>
       <div class="carousel-caption">
@@ -144,8 +144,8 @@
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100" src="img/2020-01-22 16-58 Copy of 12743821_971995782854493_1564660728459160689_n.jpg"
-          alt="Third slide"  style="height: 750px;">
+        <img class="d-block w-100   image" src="img/2020-01-22 16-58 Copy of 12743821_971995782854493_1564660728459160689_n.jpg"
+          alt="Third slide" >
         <div class="mask rgba-black-slight"></div>
       </div>
       <div class="carousel-caption">
@@ -170,16 +170,22 @@
 
 
 
+<hr>
+<!-- 
+  ============================================================
+  cards
+  ============================================================
+ -->
 
-<div class="container-fluid  stylish-color  w-100  divfexd mt-5 ">
+<div class="container-fluid  stylish-color  w-100  divfexd  mt-5 ">
   <div class="row justify-content-around ">
 
 
   <!-- Card Dark -->
-<div class=" wow  card w-25 h-20 mt-5  animate__animated  slideInLeft">
+<div class=" wow  card w-25 h-20 mart  animate__animated  slideInLeft">
 
   <!-- Card image -->
-  <div class="view overlay card ">
+  <div class="view overlay  card  ">
     <img class="card-img-top" src="/img/WhatsApp Image 2020-05-16 at 11.45.08 AM (2).jpeg"
       alt="Card image cap">
     <a>
@@ -189,19 +195,19 @@
   </div>
 
   <!-- Card content -->
-  <div class="card-body elegant-color white-text rounded-bottom">
+  <div class="card-body elegant-color white-text rounded-bottom   ">
 
     <!-- Social shares button -->
     <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
     <!-- Title -->
-    <h4 class="card-title   wow  animate__animated  animate__backInLeft  ">Misr Life Insurance</h4>
+    <h4 class="card-title   wow  animate__animated  animate__backInLeft fontsize ">Misr Life Insurance</h4>
     <hr class="hr-light">
     <!-- Text -->
-    <p class="card-text white-text mb-4  wow  animate__animated  animate__backInLeft  animate__delay-1s">Some quick example text to build on the card title and make up the bulk
+    <p class=" fontsize1   white-text mb-4  wow  animate__animated  animate__backInLeft  animate__delay-1s   ">Some quick example text to build on the card title and make up the bulk
       of the card's content.</p>
     <!-- Link -->
     <a href="#!" class="white-text d-flex justify-content-end">
-      <h5  class=" wow  animate__animated  animate__backInLeft  animate__delay-2s">Read more <i class="fas fa-angle-double-right"></i></h5>
+      <h5  class=" fontsize2  wow  animate__animated  animate__backInLeft  animate__delay-2s  ">Read more <i class="fas fa-angle-double-right"></i></h5>
     </a>
 
   </div>
@@ -214,7 +220,7 @@
 <div class="wow  card w-25 h-20 mt-5   animate__animated slideInLeft " >
 
   <!-- Card image -->
-  <div class="view overlay">
+  <div class="view overlay  ">
     <img class="card-img-top" src="/img/1 (26).JPG"
       alt="Card image cap">
     <a>
@@ -223,19 +229,19 @@
   </div>
 
   <!-- Card content -->
-  <div class="card-body elegant-color white-text rounded-bottom">
+  <div class="card-body elegant-color white-text rounded-bottom  ">
 
     <!-- Social shares button -->
     <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
     <!-- Title -->
-    <h4 class="card-title     wow  animate__animated  animate__backInLeft  ">Lavarg</h4>
+    <h4 class="card-title     wow  animate__animated  animate__backInLeft fontsize ">Lavarg</h4>
     <hr class="hr-light">
     <!-- Text -->
-    <p class="card-text white-text mb-4   wow  animate__animated  animate__backInLeft  animate__delay-1s">Some quick example text to build on the card title and make up the bulk
+    <p class="fontsize1   white-text mb-4   wow  animate__animated  animate__backInLeft  animate__delay-1s   ">Some quick example text to build on the card title and make up the bulk
       of the card's content.</p>
     <!-- Link -->
     <a href="#!" class="white-text d-flex justify-content-end">
-      <h5  class="wow  animate__animated  animate__backInLeft  animate__delay-2s">Read more <i class="fas fa-angle-double-right"></i></h5>
+      <h5  class=" fontsize2  wow  animate__animated  animate__backInLeft  animate__delay-2s ">Read more <i class="fas fa-angle-double-right"></i></h5>
     </a>
 
   </div>
@@ -255,19 +261,19 @@
   </div>
 
   <!-- Card content -->
-  <div class="card-body elegant-color white-text rounded-bottom">
+  <div class="card-body elegant-color white-text rounded-bottom ">
 
     <!-- Social shares button -->
     <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
     <!-- Title -->
-    <h4 class="card-title  wow  animate__animated  animate__backInLeft   ">CI capital</h4>
+    <h4 class="card-title  wow  animate__animated  animate__backInLeft  fontsize ">CI capital</h4>
     <hr class="hr-light">
     <!-- Text -->
-    <p class="card-text white-text mb-4  wow  animate__animated  animate__backInLeft  animate__delay-1s">Some quick example text to build on the card title and make up the bulk
+    <p class="fontsize1  white-text mb-4  wow  animate__animated  animate__backInLeft  animate__delay-1s    ">Some quick example text to build on the card title and make up the bulk
       of the card's content.</p>
     <!-- Link -->
     <a href="#!" class="white-text d-flex justify-content-end">
-      <h5 class=" wow animate__animated  animate__backInLeft  animate__delay-2s">Read more <i class="fas fa-angle-double-right"></i></h5>
+      <h5 class=" fontsize2   wow animate__animated  animate__backInLeft  animate__delay-2s ">Read more <i class="fas fa-angle-double-right"></i></h5>
     </a>
 
   </div>
@@ -277,26 +283,31 @@
 
   </div>
 
-
 </div>
 
 
-
-<div class=" w-100 div3 mt-5 " >
-  <div class="d-flex flex-nowarp ">
+<div class=" w-100 div3   " >
+  <div class="d-flex flex-nowarp  ">
     <!-- Card -->
 <div class="card card-image mr-4 ml-4  "
 style="background-image: url(https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
 
 <!-- Content -->
-<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+<div class="text-white text-center d-flex align-items-center rgba-black-strong py-4 px-4">
+
   <div>
-    <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Marketing</h5>
+    <figure>
+      <img src="img/981826_697089426973820_1590290911_o.jpg" alt="" class="gm2 rounded-circle    wow   animate__animated   animate__backInLeft animate__delay-1s" >
+    </figure>
+  </div>
+
+
+  <div>
+    <h5 class="pink-text"><i class="fas fa-chart-pie pt"></i> Marketing</h5>
     <h3 class="card-title pt-2"><strong>This is the card title</strong></h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+    <p class="fontsize1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
       optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
       Odit sed qui, dolorum!.</p>
-    <a class="btn btn-pink"><i class="fas fa-clone left"></i> View project</a>
   </div>
 </div>
 
@@ -306,18 +317,26 @@ style="background-image: url(https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Work
 
 
 <!-- Card -->
-<div class="  card card-image  mr-4 ml-4 "
+<div class="  card card-image  mr-4 ml-4  gm "
   style="background-image: url(https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
-
+  
+  
   <!-- Content -->
-  <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+  <div class="text-white text-center d-flex align-items-center rgba-black-strong py-4 px-4">
+    
     <div>
-      <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Marketing</h5>
+      <figure>
+        <img src="img/981826_697089426973820_1590290911_o.jpg" alt="" class="  gm2 rounded-circle     wow   animate__animated   animate__backInRight  animate__delay-1s" >
+      </figure>
+    </div>
+
+
+    <div>
+      <h5 class="pink-text"><i class="fas fa-chart-pie pt"></i> Marketing</h5>
       <h3 class="card-title pt-2"><strong>This is the card title</strong></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+      <p class="fontsize1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
         optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
         Odit sed qui, dolorum!.</p>
-      <a class="btn btn-pink"><i class="fas fa-clone left"></i> View project</a>
     </div>
   </div>
 
@@ -326,18 +345,107 @@ style="background-image: url(https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Work
   </div>
 
 </div>
+</div>
+<!-- 
+  ===================================================
+  contrade logo
+  ===================================================
+ -->
 
-
-
-<div class="bg-white    rounded-circle  wow animate__animated  animate__zoomIn  animate__delay-1s" style="z-index: 2; height: 30em; width: 35%;   position: absolute; top: 110em; left: 30%; border: 10px solid rgb(201, 104, 157); border-style: double;" >
-<div>.
-  <figure >
-    <img src="img/Contrade Logo12.gif"  alt="" style="z-index: 3; position: absolute; top: 80px; left: 70px;">
+<div>
+  <div class="  z-depth-5    rounded-circle  wow animate__animated  animate__zoomIn  animate__delay-1s contrade "  >
+    <figure >
+    <img src="img/Contrade Logo12.gif"  alt="" class="logo">
   </figure>
 </div>
+
+</div>
+</div>
+<div class="beforlast"  style="background-image: url(img/arsitek.jpg);">
 </div>
 
 
+<!-- 
+  ================================================================
+  the begining of last section
+  ================================================================
+ -->
+<div class="beforlast1 container-fluid " >
+<div style=" display: flex;justify-content: center;line-height: 50px; height: 20px;"><strong>Our Customer</strong> </div>
+<Div class="row mt-4">
+<img src="img/logo/download (4).jpg" alt=""    class="logo_img  wow   animate__animated   animate__backInRight animate__delay-1s" >
+<img src="img/logo/download (2).png" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/download (3).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/download (5).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/download (6).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/download (7).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/download (8).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/download (9).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/download (10).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/download (11).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/download (12).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/download.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/download.png" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/global_h_header_slb_logo.gif" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/Hdb_bank_logo.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/images (1).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/images (1).png" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/images (2).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/images (2).png" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/images.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/images.png" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/logo (1).jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/logo.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/SIGNBOARD.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/بنك بيريوس مصر.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/بنك قناة السويس.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/سيتي بنك.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/فندوق سوفوتيل.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/كردي اجريكول.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/التمويل المصري السعودي.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/بنك الاتحاد الوطني.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/بنك التعمير والاسكان.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/بنك المؤسسة المصرفية.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/المصرف المتحد .jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/المستقبل.bmp" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/العربي الافريقي.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/الشركة الوطنية للبترول.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/السويدي للكابلات.bmp" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+<img src="img/logo/الدولية للاستثمار.jpg" alt=""   class="logo_img wow   animate__animated   animate__backInRight animate__delay-1s">
+
+
+  </Div>
+ 
+</div>
+
+<!-- 
+  ==========================================================
+   footer
+  ==========================================================
+ -->
+ <div class="footer text-white">
+  <hr>
+  <div class="d-flex flex-row">
+    <div class="col-4  pt-4 pb-4 ">
+      <pre class="text-white">
+        <strong>Contacts</strong>
+
+        Tel : 33368229 
+            : 33387828
+        fax : 33389745
+        Mobile:
+        E-mail: Cntrd15@Contrade.com.eg
+      </pre>
+    </div>
+
+    <div class="col-4  pt-4 pb-4 bg-secondary">---2----</div>
+
+    <div class="col-4  pt-4 pb-4">---3----</div>
+    
+    
+  
+  </div>
+  </div>
 
 
 
