@@ -22,12 +22,13 @@ right: 100px;
 }
 
 .divfexd{
-    position: absolute;
+    position: relative;
     height: 33em;
     /* background-image: url("/img/1-\ pexels-charles-parker-5847766.jpg"); */
     /* background-repeat: repeat;
     background-size:contain; */
     height: 600px;
+
 }
 
 
@@ -60,9 +61,9 @@ right: 100px;
 .div3{
     height: 10em;
      position: relative;
-     top: 34em;
+     top: 13em;
      height: 25em;
-     margin-top: 16em;
+     margin-top: 30em;
     }
 
     .font{
@@ -109,8 +110,8 @@ right: 100px;
            height: 10em;
            z-index: 3;
             position: absolute; 
-            top: 10%;
-             left: 20px;
+            top: 12%;
+             left: 40px;
     }
    .mart{
        margin-top: 50px;
@@ -135,24 +136,28 @@ right: 100px;
      background-color: rgba(26, 26, 131, 0.884);
      
 }
-
+.contrade2{
+    width: 100%;
+    height: 200px;
+}
 .contrade{
     z-index: 2;
-     height: 15em;
-      width: 20%; 
+     height: 17em;
+      width: 23%; 
         position: absolute;
-         top: 127em; 
+         top: 140em; 
          left: 39%;
           border: 10px solid  blueviolet; 
           border-style: double;
           background-color: transparent;
           color: darkslategrey;
 }
+
 .beforlast{
     position: absolute;
-    top: 1970px;
+    top: 2150px;
     width: 100%;
-    height: 350px;
+    height: 500px;
     background-repeat:repeat;
     background-size: contain;
     background-attachment: fixed;
@@ -160,10 +165,10 @@ right: 100px;
 .beforlast1{
     background-color:rgb(88, 81, 81);
     position: relative;
-    top: 830px;
     width: 100%;
     height: 320px;
-    margin-top: 60px;
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
 .logo_img{
     width: 70px;
@@ -182,10 +187,23 @@ right: 100px;
     background-color: rgb(32, 31, 31);
     width: 100%;
     height: 350px;
-    top: 840px;
     font-size: 20px;
+    padding-top: 30px;
 }
 
+.Defination{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    background-color: rgb(32, 31, 31);
+    color: blanchedalmond;
+}
+.auto{
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
     @media only screen and (max-width: 400px) {
 
      .font{
