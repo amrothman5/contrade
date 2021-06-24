@@ -19,7 +19,16 @@ right: 100px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
 }
-
+.nav3{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* row flex-nowarp justify-content-around  align-items-center */
+}
 .divfexd{
     position: relative;
     height: 33em;
@@ -70,11 +79,10 @@ right: 100px;
     }
 
 
-    .font1{
-        padding-top: 5px;
-        font-size: 1em;
-    }
-
+   
+  .font2{
+      margin-left: 24px;
+  }
     .nav1{
         height: 4em;
          position: fixed;
@@ -203,23 +211,66 @@ right: 100px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-    @media only screen and (max-width: 400px) {
+.img1{
+    padding:100px 0px 0px 50px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.p1{
+    padding: 150px 60px ;
+}
+.co{
+    width: 40%;
+    padding-left: 20px;
+}
+.co1{
+    width: 35%;
+    padding-left: 40px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+.footertext{
+    color: white;
+}
+.pl1{
+    padding-left: 50px;
+}
+@media only screen and (max-width:1295px) {
 
+    .font{    
+       font-family:'Monoton', cursive;
+     }
+
+
+}
+    @media only screen and (max-width: 400px) {
+        
      .font{
         font-size: 10px;
-       margin-left: 0px;
+       margin-left: 1px;
+       font-family:'Monoton', cursive;
      }
      
      .font1{
         font-size: 10px;
-        padding-left: 5px;
-    
+        padding-left: 0px;
+        padding-right: 0px;
     }
      .nav1{
+         width: 100%;
         height: 3em;
+        padding: 0px;
      }
      .nav2{
         margin-top: 3em;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
          background-color: rgba(15, 14, 14, 0.822);
      }
      .navbar-toggler{
@@ -270,6 +321,134 @@ right: 100px;
      .card-title{
          font-size: 12px;
      }
-      }
+     .Defination p{
+         font-size: 8px;
+         
+     }
+     .Defination img{
+        padding:20px 0px 0px 0px;
+         width: 130px;
+         height: 150px;
+     }
+     .img1{
+        padding:30px 0px 0px 10px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .p1{
+        padding: 20px 5px ;
+       box-sizing: border-box;
+    }
+
+   .Defination{
+       height: 300px;
+   }
+   .beforlast{
+    position: absolute;
+    top: 1300px;
+    background-repeat:repeat;
+    background-size: cover;
+}
+.contrade{
+     height: 17em;
+      width: 50%; 
+        position: absolute;
+         top: 88em; 
+         left: 30%;
+}
+
+.logo{
+    width: 7em;
+    height: 10em;
+    z-index: 3;
+     position: absolute; 
+     top: 12%;
+      left: 40px;
+      box-sizing: border-box;
+}
+.div3{
+    height: 10em;
+     position: relative;
+     top: 8em;
+     height: 25em;
+     margin-top: 30em;
+    }
+    .div3 .card{
+padding-top: 20px;  
+
+}
+.gm2{
+    position: absolute;
+    z-index: 1;
+    width: 6em;
+    height: 6em;
+    top: -7.5em;
+    left: 19%;
+    box-sizing: border-box;
+}
+.beforlast1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.logo_img{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.footer{
+    position: relative;
+    background-color: rgb(32, 31, 31);
+    width: 100%;
+    height: 350px;
+    font-size: 11px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.co{
+    width: 35%;
+    padding-left: 5px;
+}
+.co1  {
+    width: 30%;
+    padding-left: 20px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}     
+.footertext {
+         width: 100%;
+         padding-left: 0px;
+         margin-left: 0px;
+} 
+.co3{
+    width: 20%;
+margin-left: 20px;}
+.pl1{
+    padding-left: 10px;
+}
+.font2{
+    margin-left: 5px;
+}
+.font1{
+    padding-top: 5px;
+    font-size: 9px;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;}
+}
 
   
