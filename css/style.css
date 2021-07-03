@@ -86,13 +86,14 @@ right: 100px;
     .nav1{
         height: 4em;
          position: fixed;
-          z-index: 2;
+          z-index: 3;
           background-color: rgba(8, 8, 66, 0.932);
     }
     .nav2{
         position: fixed; 
-        z-index: 2;
+        z-index: 4;
          margin-top: 4em;
+         background-color: rgba(77, 17, 107, 0.37);
     }
     .image{
         height: 750px;
@@ -225,14 +226,13 @@ right: 100px;
 .p1{
     padding: 150px 60px ;
 }
-.co{
+/* .co{
     width: 40%;
     padding-left: 20px;
-}
+} */
 .co1{
-    width: 35%;
-    padding-left: 40px;
-    margin-left: 50px;
+    padding-left: 250px;
+    /* margin-left: 50px; */
     box-sizing: border-box;
 }
 .footertext{
@@ -663,6 +663,7 @@ justify-content: space-between;}
 }
 
      @media only screen and (max-width: 450px) {
+        
         
      .font{
         font-size: 10px;
