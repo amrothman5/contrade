@@ -427,6 +427,30 @@ right: 100px;
  margin-bottom: 100px;
  z-index: 2;
 }
+/* ===========testPage================= */
+.fullScreen{
+    position: absolute;
+    background: fixed;
+    background-color: rgba(3, 3, 3, 0.795);
+    height: 100%;
+    width: 0px;
+    margin: 0px auto;
+    z-index: 5;
+
+}
+.fullScreen2{
+    position: absolute;
+    background: fixed;
+    background-color: rgba(3, 3, 3, 0.897);
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+    z-index: 5;
+
+}
+#pagedetails{
+opacity: 0;
+}
 /* 
 
 ===================================

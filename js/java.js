@@ -63,6 +63,8 @@ function Banks( ) {
    banks.classList.remove("beforlast3");
    banks.classList.add("beforlast3-1");
 }
+// ================================
+
 // ================= Reverce Funcation=================
 function Banks2( ) {
    var move1 = document.getElementById("box");
@@ -76,6 +78,7 @@ function Banks2( ) {
    var h1left = document.querySelector("#h1left");
     var icon = document.getElementById("icon");
     var banks = document.getElementById("banks");
+    var pdetails = document.getElementById("pagedetails");
     move1.classList.remove("move1");
     move2.classList.remove("move2");
     move1.classList.add("move22");
@@ -86,12 +89,19 @@ function Banks2( ) {
    h3.innerHTML=" ";
    h3.innerHTML = ""
    h4.innerHTML="";
-   h4.innerHTML="";
+   h4.innerHTML=" ";
    h3left2.innerHTML=``;
    h3left.innerHTML=``;
-   
+   pdetails.style.opacity="100";
    icon.innerHTML="<p class='animate__animated  animate__backOutLeft      animate__slower 200000  ; '></p>"
    h3left.appendChild(banks);
    banks.classList.remove("beforlast3");
    banks.classList.add("beforlast3-1");
+}
+
+function fullScreen2(){
+   var full = document.getElementById("fullScreen");
+   full.style.width="100%";
+   // full.classList.remove("fullscreen");
+   full.classList.add("fullscreen2");
 }
