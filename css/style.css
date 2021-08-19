@@ -9,7 +9,13 @@
 position: relative;
 right: 100px;
 }
-
+.move{
+    transition:all 1s ease 1s;
+    -webkit-transition:all 1s ease 1s;
+    -moz-transition:all 1s ease 1s;
+    -ms-transition:all 1s ease 1s;
+    -o-transition:all 1s ease 1s;
+}
 .nav-item .nav-link:hover{
     background-color:gray;
     font-size: 18px;
@@ -439,17 +445,53 @@ right: 100px;
 
 }
 .fullScreen2{
-    position: absolute;
-    background: fixed;
-    background-color: rgba(3, 3, 3, 0.897);
-    height: 100%;
-    width: 100%;
-    margin: 0px auto;
-    z-index: 5;
-
+  position: absolute;
+  background: fixed;
+  background-color: rgba(3, 3, 3, 0.897);
+  margin: 0px auto;
+  z-index: 5;
 }
 #pagedetails{
 opacity: 0;
+color: whitesmoke;
+}
+/* ==========close Button========= */
+.fullScreen  .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left:50px
+}
+/* ====================أخفاء الكتابة و أظهارها عند الضغط على الصورة========= */
+.bank1{
+    display: none; 
+}
+.bank2{
+    display: none; 
+}
+
+/* =========================================================== */
+.bank1-2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.bank1-3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.closebtn{
+    color: whitesmoke;
+    padding-left: 100px;
+    box-sizing: border-box;
 }
 /* 
 
