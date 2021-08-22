@@ -428,7 +428,7 @@ right: 100px;
  left: 40px;
  bottom: 220px;
  width: 100%;
- height: 150px;
+ height: 170px;
  margin-top: 0px;
  margin-bottom: 100px;
  z-index: 2;
@@ -463,7 +463,7 @@ color: whitesmoke;
     font-size: 36px;
     margin-left:50px
 }
-/* ====================أخفاء الكتابة و أظهارها عند الضغط على الصورة========= */
+/* ====================أخفاء الكتابة و أظهارها بالدوال عند الضغط على الصورة========= */
 .bank1{
     display: none; 
 }
