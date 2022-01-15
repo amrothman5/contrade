@@ -1,0 +1,141 @@
+body{
+    background:rgb(245, 245, 245);
+    margin:0px;
+    padding: 0px;
+    color:rgb(7, 7, 7);
+    /* height:1500px; */
+}
+.embassi-basic{
+    position:relative;
+    top:120px ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.embassi-basic1{
+    /* background-color: rgba(159, 167, 166, 0.849); */
+    height: 90vh;
+    /* border: 1px solid blue; */
+    border-radius:10px;
+}
+.embassi-basic2{
+    position:absolute;
+    background-color: rgba(210, 219, 217, 0.849);
+    /* border: 1px solid blue; */
+    width: 0px;
+    height: 100vh;
+    border-radius:10px;
+    display: block;
+    z-index:1 ;
+    right:0px;
+    display: none;
+overflow-y: scroll;
+}
+.embassi-closebtn{
+    display: none;
+}
+.big-img{
+    width: 1510px;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+.small-img{
+    width: 80%;
+    height: 10%;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.small-img:hover{
+    cursor: pointer;
+}
+.embassi-closebtn{
+    background: rgba(255, 255, 255, 0);
+    font-size: 30px;
+    border-radius: 10%;
+    font-weight: bold;
+    text-decoration: none;
+    color: blueviolet;
+    cursor: pointer;
+}
+.embassi-basic1 .moreImage{
+    position:absolute;
+    right:10px;
+    top:0px;
+    cursor: pointer;
+    font-size:20px;
+}
+
+/* =============================================== */
+.location{
+    width:100%;
+    /* height:500px; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:200px;
+}
+.Embassidetails{
+   margin-left: 100px;
+}
+.Embassidetails h3{
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.Embassidetails p{
+  line-height: 35px;
+}
+.embassi-image{
+    width:85%;
+    height:85%;
+    border-radius: 10px;
+    padding-left:150px;
+    margin-bottom: 100px;
+}
+.embassi-footer{
+    position: relative;
+    top:200px;
+}
+/* ===========================more image desgin ================*/
+/* .container1{
+    width: 280px;
+    height: 50px;
+  }
+svg{
+    font-size: 118px;
+  }
+  .copy{
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-dasharray: 8% 30%;
+    stroke-dashoffset: 0%;
+    animation: textanimation 6s linear infinite;
+  }
+  @keyframes textanimation{
+    100%{
+      stroke-dashoffset: -35%;
+    }
+  }
+  .copy1{
+  stroke: #673ab7;
+  animation-delay: -1s;
+  }
+  .copy2{
+    stroke: #17181a;
+    animation-delay: -2s;
+    }
+    .copy3{
+      stroke: #f1453f;
+      animation-delay: -3s;
+      }
+      .copy4{
+        stroke: #08356e;
+        animation-delay: -4s;
+        }
+        .copy5{
+          stroke: rgb(64, 179, 10);
+          animation-delay: -5s;
+          } */

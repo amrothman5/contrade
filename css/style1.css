@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    overflow:hidden;
   }
 
   .swiper-container {
@@ -27,4 +28,817 @@ body {
     background-color: black;
     -webkit-box-reflect:  below 1px linear-gradient(transparent,transparent,#0006);
   }
+/* =====================================================================================================
+===================================================================================================== */
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    background-color: rgba(27, 26, 26, 0.664);
+
+}
+   .move1   {
+  transform: translateX(620px);
+  -webkit-transform: translateX(620px);
+  -moz-transform: translateX(620px);
+  -ms-transform: translateX(620px);
+  -o-transform: translateX(620px);
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+}
+
+.move11   {
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+  }
+.move2 {
+  transform:translateX(310px) ;
+ -webkit-transform:translateX(-620px) ;
+ -moz-transform:translateX(-620px) ;
+ -ms-transform:translateX(-620px) ;
+ -o-transform:translateX(-620px) ;
+ transition: all 1s ease 0s;
+ -webkit-transition: all 1s ease 0s;
+ -moz-transition: all 1s ease 0s;
+ -ms-transition: all 1s ease 0s;
+ -o-transition: all 1s ease 0s;
+}
+.move22 {
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+   }
+
+.box{
+   overflow: hidden;
+}
+.left{
+    width: 100%;
+    position: relative;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: whitesmoke;
+    height: 630px;
+    border-radius: 360px;
+    -webkit-border-radius: 360px;
+    -moz-border-radius: 360px;
+    -ms-border-radius: 360px;
+    -o-border-radius: 360px;
+    z-index: 3;
+ 
+}
+.left-h{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-h h1{
+    font-family:'Monoton', cursive;
+
+}
+
+.left-2{
+    position: absolute;
+    right: 5px;
+    width: 95%;
+    height: 100%;
+    background-image: url("./img/2- pexels-max-vakhtbovych-6207951.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 360px;
+    -webkit-border-radius: 360px;
+    -moz-border-radius: 360px;
+    -ms-border-radius: 360px;
+    -o-border-radius: 360px;
+    z-index: 3;
+}
+.right{
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 630px;
+    width: 99%;
+    border-radius: 360px;
+    -webkit-border-radius: 360px;
+    -moz-border-radius: 360px;
+    -ms-border-radius: 360px;
+    -o-border-radius: 360px;
+    z-index: 3;
+}
+.right-h{
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+}
+.right-h h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(214, 30, 30);
+
+}
+.right-h p a{
+    font-size:50px;
+    color: rgb(214, 30, 30);
+
+}
+.right-h h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(214, 30, 30);
+
+   
+}
+.right-h h4{
+    color: rgb(214, 30, 30);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.right-2{
+    position: absolute;
+    right: 21px;
+    width: 94%;
+    height: 100%;
+    background-image: url("./img/3- pexels-max-vakhtbovych-6238610.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 360px;
+    -webkit-border-radius: 360px;
+    -moz-border-radius: 360px;
+    -ms-border-radius: 360px;
+    -o-border-radius: 360px;
+    z-index: 1;
+}
+.fontright{
+     font-size: 50px;
+     font-family:'Times New Roman', Times, serif;
+}
+.fontright2{
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+   
+}
+
+.beforlast3{
+    display:none;
+ position: absolute;
+ left: 40px;
+ bottom: 220px;
+ width: 100%;
+ height: 150px;
+ margin-top: 0px;
+ margin-bottom: 100px;
+ z-index: 2;
+}
+
+.beforlast3-1{
+ position: absolute;
+ left: 40px;
+ bottom: 220px;
+ width: 100%;
+ height: 170px;
+ margin-top: 0px;
+ margin-bottom: 100px;
+ z-index: 2;
+}
+/* ===========testPage================= */
+.fullScreen{
+    position: absolute;
+    background: fixed;
+    background-color: rgba(3, 3, 3, 0.795);
+    height: 100%;
+    width: 0px;
+    margin: 0px auto;
+    z-index: 5;
+
+}
+.fullScreen2{
+  position: absolute;
+  background: fixed;
+  background-color: rgba(3, 3, 3, 0.897);
+  margin: 0px auto;
+  z-index: 5;
+}
+#pagedetails{
+opacity: 0;
+color: whitesmoke;
+}
+/* ==========close Button========= */
+.fullScreen  .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left:50px
+}
+/* ====================أخفاء الكتابة و أظهارها بالدوال عند الضغط على الصورة========= */
+.bank1{
+    display: none; 
+}
+.bank2{
+    display: none; 
+}
+
+
+/* =========================================================== */
+.bank1-2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.bank1-3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.closebtn{
+    color: whitesmoke;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+
+
+/* =====================================================================================================
+===================================================================================================== */
+  @media  (min-width:1040px ) and ( max-width: 1230px)
+{
+
+
+    .move1   {
+        transform: translateX(500px);
+        -webkit-transform: translateX(500px);
+        -moz-transform: translateX(500px);
+        -ms-transform: translateX(500px);
+        -o-transform: translateX(500px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-510px) ;
+    -webkit-transform:translateX(-510px) ;
+    -moz-transform:translateX(-510px) ;
+    -ms-transform:translateX(-510px) ;
+    -o-transform:translateX(-510px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+
+}
+
+@media  (min-width:950px ) and ( max-width: 1039px)
+{
+
+
+    .move1   {
+        transform: translateX(470px);
+        -webkit-transform: translateX(470px);
+        -moz-transform: translateX(470px);
+        -ms-transform: translateX(470px);
+        -o-transform: translateX(470px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-500px) ;
+    -webkit-transform:translateX(-500px) ;
+    -moz-transform:translateX(-500px) ;
+    -ms-transform:translateX(-500px) ;
+    -o-transform:translateX(-500px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:865px ) and ( max-width: 949px)
+{
+
+
+    .move1   {
+        transform: translateX(430px);
+        -webkit-transform: translateX(430px);
+        -moz-transform: translateX(430px);
+        -ms-transform: translateX(430px);
+        -o-transform: translateX(430px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-430px) ;
+    -webkit-transform:translateX(-430px) ;
+    -moz-transform:translateX(-430px) ;
+    -ms-transform:translateX(-430px) ;
+    -o-transform:translateX(-430px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:804px ) and ( max-width: 864px)
+{
+    .right-h p a{
+        font-size:30px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+
+    .move1   {
+        transform: translateX(400px);
+        -webkit-transform: translateX(400px);
+        -moz-transform: translateX(400px);
+        -ms-transform: translateX(400px);
+        -o-transform: translateX(400px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-410px) ;
+    -webkit-transform:translateX(-410px) ;
+    -moz-transform:translateX(-410px) ;
+    -ms-transform:translateX(-410px) ;
+    -o-transform:translateX(-410px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+
+
+
+@media  (min-width:730px ) and ( max-width: 804px)
+{
+    .right-h p a{
+        font-size:30px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+
+    .move1   {
+        transform: translateX(360px);
+        -webkit-transform: translateX(360px);
+        -moz-transform: translateX(360px);
+        -ms-transform: translateX(360px);
+        -o-transform: translateX(360px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-400px) ;
+    -webkit-transform:translateX(-400px) ;
+    -moz-transform:translateX(-400px) ;
+    -ms-transform:translateX(-400px) ;
+    -o-transform:translateX(-400px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:704px ) and ( max-width: 730px)
+{
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+
+    .move1   {
+        transform: translateX(350px);
+        -webkit-transform: translateX(350px);
+        -moz-transform: translateX(350px);
+        -ms-transform: translateX(350px);
+        -o-transform: translateX(350px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-350px) ;
+    -webkit-transform:translateX(-350px) ;
+    -moz-transform:translateX(-350px) ;
+    -ms-transform:translateX(-350px) ;
+    -o-transform:translateX(-350px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:680px ) and ( max-width: 704px)
+{
+
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+    .move1   {
+        transform: translateX(330px);
+        -webkit-transform: translateX(330px);
+        -moz-transform: translateX(330px);
+        -ms-transform: translateX(330px);
+        -o-transform: translateX(330px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-350px) ;
+    -webkit-transform:translateX(-350px) ;
+    -moz-transform:translateX(-350px) ;
+    -ms-transform:translateX(-350px) ;
+    -o-transform:translateX(-350px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:600px ) and ( max-width: 680px)
+{
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+
+    .move1   {
+        transform: translateX(300px);
+        -webkit-transform: translateX(300px);
+        -moz-transform: translateX(300px);
+        -ms-transform: translateX(300px);
+        -o-transform: translateX(300px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-320px) ;
+    -webkit-transform:translateX(-320px) ;
+    -moz-transform:translateX(-320px) ;
+    -ms-transform:translateX(-320px) ;
+    -o-transform:translateX(-320px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+
+@media  (min-width:570px ) and ( max-width: 600px)
+{
+
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+    .move1   {
+        transform: translateX(280px);
+        -webkit-transform: translateX(280px);
+        -moz-transform: translateX(280px);
+        -ms-transform: translateX(280px);
+        -o-transform: translateX(280px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-290px) ;
+    -webkit-transform:translateX(-290px) ;
+    -moz-transform:translateX(-290px) ;
+    -ms-transform:translateX(-290px) ;
+    -o-transform:translateX(-290px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:500px ) and ( max-width: 570px)
+{
+
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+    .move1   {
+        transform: translateX(280px);
+        -webkit-transform: translateX(250px);
+        -moz-transform: translateX(280px);
+        -ms-transform: translateX(280px);
+        -o-transform: translateX(280px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-290px) ;
+    -webkit-transform:translateX(-260px) ;
+    -moz-transform:translateX(-290px) ;
+    -ms-transform:translateX(-290px) ;
+    -o-transform:translateX(-290px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+/* ===========================the last screen in banks======================================== */
+@media  (min-width:370px ) and ( max-width: 500px)
+{
+
+
+ 
+
+
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+    .move1   {
+        transform: translateX(210px);
+        -webkit-transform: translateX(210px);
+        -moz-transform: translateX(210px);
+        -ms-transform: translateX(210px);
+        -o-transform: translateX(210px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-230px) ;
+    -webkit-transform:translateX(-230px) ;
+    -moz-transform:translateX(-230px) ;
+    -ms-transform:translateX(-230px) ;
+    -o-transform:translateX(-230px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:300px ) and ( max-width: 370px)
+{
+
+    .logo_img{
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+
+     .logo_img {
+        width: 20px;
+        height: 20px;
+
+    }
+  
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+    .move1   {
+        transform: translateX(170px);
+        -webkit-transform: translateX(170px);
+        -moz-transform: translateX(170px);
+        -ms-transform: translateX(170px);
+        -o-transform: translateX(170px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-180px) ;
+    -webkit-transform:translateX(-180px) ;
+    -moz-transform:translateX(-180px) ;
+    -ms-transform:translateX(-180px) ;
+    -o-transform:translateX(-180px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
 

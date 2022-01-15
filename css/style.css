@@ -9,6 +9,8 @@
 position: relative;
 right: 100px;
 }
+
+
 .move{
     transition:all 1s ease 1s;
     -webkit-transition:all 1s ease 1s;
@@ -17,7 +19,7 @@ right: 100px;
     -o-transition:all 1s ease 1s;
 }
 .nav-item .nav-link:hover{
-    background-color:gray;
+    background-color:rgb(114, 190, 209);
     font-size: 18px;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -185,8 +187,8 @@ right: 100px;
     margin-bottom: 100px;
 }
 .logo_img{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -232,6 +234,9 @@ right: 100px;
 .p1{
     padding: 150px 60px ;
 }
+
+
+
 /* .co{
     width: 40%;
     padding-left: 20px;
@@ -333,7 +338,7 @@ right: 100px;
     right: 5px;
     width: 95%;
     height: 100%;
-    background-image: url("/img/2- pexels-max-vakhtbovych-6207951.jpg");
+    background-image: url("../img/1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 360px;
@@ -391,7 +396,7 @@ right: 100px;
     right: 21px;
     width: 94%;
     height: 100%;
-    background-image: url("/img/3- pexels-max-vakhtbovych-6238610.jpg");
+    background-image: url("../img/2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 360px;
@@ -411,15 +416,26 @@ right: 100px;
    
 }
 
+.carousel-control-prev1{
+height: 0px;
+
+}
+.carousel-control-next1{
+    height: 0px;
+    padding-right: 40px;
+    }
+    .carousel-fade1{
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
 .beforlast3{
     display:none;
  position: absolute;
- left: 40px;
- bottom: 220px;
+ left: 20px;
+ bottom: 120px;
  width: 100%;
- height: 150px;
- margin-top: 0px;
- margin-bottom: 100px;
+ height: 200px;
  z-index: 2;
 }
 
@@ -433,6 +449,19 @@ right: 100px;
  margin-bottom: 100px;
  z-index: 2;
 }
+
+.logo_img2{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
 /* ===========testPage================= */
 .fullScreen{
     position: absolute;
@@ -470,7 +499,49 @@ color: whitesmoke;
 .bank2{
     display: none; 
 }
-
+/* =========================================================== */
+.bank3{
+    display: none; 
+}
+.bank4{
+    display: none; 
+}
+.bank5{
+    display: none; 
+}
+.bank6{
+    display: none; 
+}
+.bank7{
+    display: none; 
+}
+.bank8{
+    display: none; 
+}
+.bank9{
+    display: none; 
+}
+.bank10{
+    display: none; 
+}
+.bank11{
+    display: none; 
+}
+.bank12{
+    display: none; 
+}
+.bank13{
+    display: none; 
+}
+.bank14{
+    display: none; 
+}
+.bank15{
+    display: none; 
+}
+.bank16{
+    display: none; 
+}
 /* =========================================================== */
 .bank1-2{
     height: 100vh;
@@ -480,6 +551,7 @@ color: whitesmoke;
     align-items: center;
     color: whitesmoke;
 }
+
 .bank1-3{
     height: 100vh;
     display: flex;
@@ -493,8 +565,1267 @@ color: whitesmoke;
     padding-left: 100px;
     box-sizing: border-box;
 }
-/* 
 
+/* ================================================================ */
+
+
+@media  (min-width:1040px ) and ( max-width: 1230px)
+{
+
+    .logo_img2{
+        width: 73px;
+        height: 73px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        /* margin-left: 0px; */
+        box-sizing: border-box;
+    }
+    .carousel-inner1{
+        top: 100px;
+    }
+    p.fontright2{
+        padding-left: 40px;
+    }
+    .move1   {
+        transform: translateX(500px);
+        -webkit-transform: translateX(500px);
+        -moz-transform: translateX(500px);
+        -ms-transform: translateX(500px);
+        -o-transform: translateX(500px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-510px) ;
+    -webkit-transform:translateX(-510px) ;
+    -moz-transform:translateX(-510px) ;
+    -ms-transform:translateX(-510px) ;
+    -o-transform:translateX(-510px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+
+}
+
+@media  (min-width:950px ) and ( max-width: 1039px)
+{
+
+
+    .logo_img2{
+        width: 73px;
+        height: 73px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        /* margin-left: 0px; */
+        box-sizing: border-box;
+    }
+    .carousel-inner1{
+        top: 75px;
+        right: 20px;
+    }
+    p.fontright2{
+        padding-left: 40px;
+    }
+    .move1   {
+        transform: translateX(470px);
+        -webkit-transform: translateX(470px);
+        -moz-transform: translateX(470px);
+        -ms-transform: translateX(470px);
+        -o-transform: translateX(470px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-500px) ;
+    -webkit-transform:translateX(-500px) ;
+    -moz-transform:translateX(-500px) ;
+    -ms-transform:translateX(-500px) ;
+    -o-transform:translateX(-500px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:865px ) and ( max-width: 949px)
+{
+
+
+    .logo_img2{
+        width: 74px;
+        height: 74px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        /* margin-left: 0px; */
+        box-sizing: border-box;
+    }
+    .carousel-inner1{
+        top: 75px;
+    }
+    p.fontright2{
+        padding-left: 40px;
+    }
+    .move1   {
+        transform: translateX(470px);
+        -webkit-transform: translateX(470px);
+        -moz-transform: translateX(470px);
+        -ms-transform: translateX(470px);
+        -o-transform: translateX(470px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-460px) ;
+    -webkit-transform:translateX(-460px) ;
+    -moz-transform:translateX(-460px) ;
+    -ms-transform:translateX(-460px) ;
+    -o-transform:translateX(-460px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:804px ) and ( max-width: 864px)
+{
+    
+    .logo_img2{
+        width: 74px;
+        height: 74px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        /* margin-left: 0px; */
+        box-sizing: border-box;
+    }
+    .carousel-inner1{
+        top: 75px;
+        right: 30px;
+    }
+    p.fontright2{
+        padding-left: 40px;
+    }
+    .right-h p a{
+        font-size:30px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+
+    .move1   {
+        transform: translateX(420px);
+        -webkit-transform: translateX(420px);
+        -moz-transform: translateX(420px);
+        -ms-transform: translateX(420px);
+        -o-transform: translateX(420px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-410px) ;
+    -webkit-transform:translateX(-410px) ;
+    -moz-transform:translateX(-410px) ;
+    -ms-transform:translateX(-410px) ;
+    -o-transform:translateX(-410px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+
+
+
+@media  (min-width:730px ) and ( max-width: 804px)
+{
+    
+    .logo_img2{
+        width: 74px;
+        height: 74px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        /* margin-left: 0px; */
+        box-sizing: border-box;
+    }
+    .carousel-inner1{
+        top: 75px;
+    }
+    p.fontright2{
+        padding-left: 40px;
+    }
+    .right-h p a{
+        font-size:30px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+
+    .move1   {
+        transform: translateX(360px);
+        -webkit-transform: translateX(360px);
+        -moz-transform: translateX(360px);
+        -ms-transform: translateX(360px);
+        -o-transform: translateX(360px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-400px) ;
+    -webkit-transform:translateX(-400px) ;
+    -moz-transform:translateX(-400px) ;
+    -ms-transform:translateX(-400px) ;
+    -o-transform:translateX(-400px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:704px ) and ( max-width: 730px)
+{
+
+    .logo_img2{
+        width: 74px;
+        height: 74px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        /* margin-left: 0px; */
+        box-sizing: border-box;
+    }
+    .carousel-inner1{
+        top: 75px;
+    }
+    p.fontright2{
+        padding-left: 40px;
+    }
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+
+    .move1   {
+        transform: translateX(350px);
+        -webkit-transform: translateX(350px);
+        -moz-transform: translateX(350px);
+        -ms-transform: translateX(350px);
+        -o-transform: translateX(350px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-350px) ;
+    -webkit-transform:translateX(-350px) ;
+    -moz-transform:translateX(-350px) ;
+    -ms-transform:translateX(-350px) ;
+    -o-transform:translateX(-350px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:680px ) and ( max-width: 704px)
+{
+
+    
+    .logo_img2{
+        width: 74px;
+        height: 74px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        /* margin-left: 0px; */
+        box-sizing: border-box;
+    }
+    .carousel-inner1{
+        top: 75px;
+        right: 20px;
+    }
+    p.fontright2{
+        padding-left: 40px;
+    }
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+    .move1   {
+        transform: translateX(330px);
+        -webkit-transform: translateX(330px);
+        -moz-transform: translateX(330px);
+        -ms-transform: translateX(330px);
+        -o-transform: translateX(330px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-350px) ;
+    -webkit-transform:translateX(-350px) ;
+    -moz-transform:translateX(-350px) ;
+    -ms-transform:translateX(-350px) ;
+    -o-transform:translateX(-350px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:660px ) and ( max-width: 680px)
+{
+    
+    .logo_img2{
+        width: 73px;
+        height: 73px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        /* margin-left: 0px; */
+        box-sizing: border-box;
+    }
+    .carousel-inner1{
+        top: 75px;
+        right:20px ;
+    }
+    p.fontright2{
+        padding-left: 40px;
+    }
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+
+    .move1   {
+        transform: translateX(330px);
+        -webkit-transform: translateX(330px);
+        -moz-transform: translateX(330px);
+        -ms-transform: translateX(330px);
+        -o-transform: translateX(330px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-340px) ;
+    -webkit-transform:translateX(-340px) ;
+    -moz-transform:translateX(-340px) ;
+    -ms-transform:translateX(-340px) ;
+    -o-transform:translateX(-340px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:600px ) and ( max-width: 660px)
+{
+    
+    .logo_img2{
+        width: 65px;
+        height: 65px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        /* margin-left: 0px; */
+        box-sizing: border-box;
+    }
+    .carousel-inner1{
+        top: 75px;
+        right:20px ;
+    }
+    p.fontright2{
+        padding-left: 40px;
+    }
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+
+    .move1   {
+        transform: translateX(300px);
+        -webkit-transform: translateX(300px);
+        -moz-transform: translateX(300px);
+        -ms-transform: translateX(300px);
+        -o-transform: translateX(300px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-340px) ;
+    -webkit-transform:translateX(-300px) ;
+    -moz-transform:translateX(-340px) ;
+    -ms-transform:translateX(-340px) ;
+    -o-transform:translateX(-340px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+
+
+@media  (min-width:570px ) and ( max-width: 600px)
+{
+
+    .logo_img2{
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        box-sizing: border-box;
+    }
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+    .move1   {
+        transform: translateX(280px);
+        -webkit-transform: translateX(280px);
+        -moz-transform: translateX(280px);
+        -ms-transform: translateX(280px);
+        -o-transform: translateX(280px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-290px) ;
+    -webkit-transform:translateX(-290px) ;
+    -moz-transform:translateX(-290px) ;
+    -ms-transform:translateX(-290px) ;
+    -o-transform:translateX(-290px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:540px ) and ( max-width: 570px)
+{
+    .logo_img2{
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        box-sizing: border-box;
+    }
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   p.fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+    padding-left: 20px;  
+   }
+    .move1   {
+        transform: translateX(280px);
+        -webkit-transform: translateX(280px);
+        -moz-transform: translateX(280px);
+        -ms-transform: translateX(280px);
+        -o-transform: translateX(280px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-280px) ;
+    -webkit-transform:translateX(-280px) ;
+    -moz-transform:translateX(-280px) ;
+    -ms-transform:translateX(-280px) ;
+    -o-transform:translateX(-280px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+
+@media  (min-width:500px ) and ( max-width: 540px)
+{
+    .logo_img2{
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        box-sizing: border-box;
+    }
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);   
+    }
+    .carousel-inner1{
+        top: 0px;
+        right: 30px;
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   p.fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+    padding-left: 20px;  
+   }
+    .move1   {
+        transform: translateX(240px);
+        -webkit-transform: translateX(240px);
+        -moz-transform: translateX(240px);
+        -ms-transform: translateX(240px);
+        -o-transform: translateX(240px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-260px) ;
+    -webkit-transform:translateX(-260px) ;
+    -moz-transform:translateX(-260px) ;
+    -ms-transform:translateX(-260px) ;
+    -o-transform:translateX(-260px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+
+/* ===========================the last screen in banks======================================== */
+@media  (min-width:480px ) and ( max-width: 500px)
+{
+
+p.fontright{
+    font-size: 20px;
+}
+p.fontright2{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 30px;
+
+}
+.right-h{
+    font-size: 15px;
+}
+    .carousel-item1{
+        margin-right: 20px;
+        bottom: 0px;
+        right: 10px;
+        width: 100px;
+        margin: 0px 0px;
+    }
+    .carousel-inner1{
+        bottom: 100px;
+        left: 20px;
+    }
+.logo_img2{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    /* margin-left: 0px; */
+    box-sizing: border-box;
+}
+
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+    .move1   {
+        transform: translateX(240px);
+        -webkit-transform: translateX(240px);
+        -moz-transform: translateX(240px);
+        -ms-transform: translateX(240px);
+        -o-transform: translateX(240px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-250px) ;
+    -webkit-transform:translateX(-250px) ;
+    -moz-transform:translateX(-250px) ;
+    -ms-transform:translateX(-250px) ;
+    -o-transform:translateX(-250px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:400px ) and ( max-width: 480px)
+{
+
+p.fontright{
+    font-size: 20px;
+}
+p.fontright2{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 30px;
+
+}
+.right-h{
+    font-size: 15px;
+}
+    .carousel-item1{
+        margin-right: 20px;
+        bottom: 0px;
+        right: 10px;
+        width: 100px;
+        margin: 0px 0px;
+    }
+    .carousel-inner1{
+        bottom: 100px;
+        left: 20px;
+    }
+.logo_img2{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    /* margin-left: 0px; */
+    box-sizing: border-box;
+}
+
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+    .move1   {
+        transform: translateX(200px);
+        -webkit-transform: translateX(200px);
+        -moz-transform: translateX(200px);
+        -ms-transform: translateX(200px);
+        -o-transform: translateX(200px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-200px) ;
+    -webkit-transform:translateX(-200px) ;
+    -moz-transform:translateX(-200px) ;
+    -ms-transform:translateX(-200px) ;
+    -o-transform:translateX(-200px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+@media  (min-width:325px ) and ( max-width: 380px)
+{
+    .logo_img2{
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        box-sizing: border-box;
+    } 
+    p.fontright{
+        font-size: 20px;
+    }
+    p.fontright2{
+        font-size: 15px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .right-h{
+        font-size: 15px;
+    }
+        .carousel-item1{
+            margin-right: 20px;
+            bottom: 0px;
+            right: 10px;
+            width: 100px;
+            margin: 0px 0px;
+        }
+        .carousel-inner1{
+            bottom: 100px;
+            right: 10px;
+        }
+  p.fontright{
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   p.fontright2{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+.right-h{
+    font-size: 15px;
+}
+
+  
+.logo_img2{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 15px;
+    /* margin-left: 0px; */
+    box-sizing: border-box;
+}
+  
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   }
+    .move1   {
+        transform: translateX(170px);
+        -webkit-transform: translateX(170px);
+        -moz-transform: translateX(170px);
+        -ms-transform: translateX(170px);
+        -o-transform: translateX(170px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-180px) ;
+    -webkit-transform:translateX(-180px) ;
+    -moz-transform:translateX(-180px) ;
+    -ms-transform:translateX(-180px) ;
+    -o-transform:translateX(-180px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+
+@media  (min-width:300px ) and ( max-width: 325px)
+{
+    img.logo_img2{
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        box-sizing: border-box;
+    } 
+    p.fontright{
+        font-size: 20px;
+    }
+    p.fontright2{
+        font-size: 15px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .right-h{
+        font-size: 15px;
+    }
+        .carousel-item1{
+            margin-right: 20px;
+            bottom: 0px;
+            right: 10px;
+            width: 100px;
+            margin: 0px 0px;
+        }
+        .carousel-inner1{
+            bottom: 100px;
+            right: 30px;
+        }
+  p.fontright{
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   p.fontright2{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 0px;
+}
+.right-h{
+    font-size: 15px;
+}
+
+
+.logo_img2{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 15px;
+    /* margin-left: 0px; */
+    box-sizing: border-box;
+}
+  
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   /* .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   } */
+    .move1   {
+        transform: translateX(170px);
+        -webkit-transform: translateX(170px);
+        -moz-transform: translateX(170px);
+        -ms-transform: translateX(170px);
+        -o-transform: translateX(170px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-150px) ;
+    -webkit-transform:translateX(-150px) ;
+    -moz-transform:translateX(-150px) ;
+    -ms-transform:translateX(-150px) ;
+    -o-transform:translateX(-150px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+
+@media  (min-width:270px ) and ( max-width: 325px)
+{
+    img.logo_img2{
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        box-sizing: border-box;
+    } 
+    p.fontright{
+        font-size: 20px;
+    }
+    p.fontright2{
+        font-size: 15px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .right-h{
+        font-size: 15px;
+    }
+        .carousel-item1{
+            margin-right: 20px;
+            bottom: 0px;
+            right: 10px;
+            width: 100px;
+            margin: 0px 0px;
+        }
+        .carousel-inner1{
+            bottom: 100px;
+            right: 30px;
+        }
+  p.fontright{
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   p.fontright2{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 0px;
+}
+.right-h{
+    font-size: 15px;
+}
+
+.logo_img2{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 15px;
+    /* margin-left: 0px; */
+    box-sizing: border-box;
+}
+  
+    .right-h p a{
+        font-size:20px;
+        color: rgb(214, 30, 30);
+    
+    }
+    .right-h h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: rgb(214, 30, 30);
+    
+       
+    }
+    .fontright{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+   }
+   /* .fontright2{
+       font-size: 20px;
+       font-family:'Times New Roman', Times, serif;
+      
+   } */
+    .move1   {
+        transform: translateX(130px);
+        -webkit-transform: translateX(130px);
+        -moz-transform: translateX(130px);
+        -ms-transform: translateX(130px);
+        -o-transform: translateX(130px);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+}
+.move2 {
+    transform:translateX(-140px) ;
+    -webkit-transform:translateX(-140px) ;
+    -moz-transform:translateX(-140px) ;
+    -ms-transform:translateX(-140px) ;
+    -o-transform:translateX(-140px) ;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}   
+}
+
+
+
+/* 
+ 
 ===================================
 */
 @media only screen and (max-width: 768px) {
@@ -647,18 +1978,7 @@ padding-top: 20px;
    margin-bottom: 50px;
 
 }
-.logo_img{
-   width: 35px;
-   height: 35px;
-   border-radius: 5px;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   -ms-border-radius: 5px;
-   -o-border-radius: 5px;
-   margin-bottom: 15px;
-   margin-left: 20px;
-   box-sizing: border-box;
-}
+
 .footer{
    position: relative;
    background-color: rgb(32, 31, 31);
@@ -859,7 +2179,7 @@ padding-top: 20px;
    margin-bottom: 50px;
 
 }
-.logo_img{
+/* .logo_img{
    width: 35px;
    height: 35px;
    border-radius: 5px;
@@ -870,7 +2190,7 @@ padding-top: 20px;
    margin-bottom: 15px;
    margin-left: 20px;
    box-sizing: border-box;
-}
+} */
 .footer{
    position: relative;
    background-color: rgb(32, 31, 31);
@@ -1123,7 +2443,6 @@ justify-content: space-between;}
 =============================300=========
 */
 @media  (min-width: 301px) and (max-width: 365px) {
-        
     .font{
        font-size: 10px;
       margin-left: 1px;

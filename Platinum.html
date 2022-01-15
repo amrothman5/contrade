@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+</head>
+<body>
+ 
+  
+
+
+    <!-- Swiper -->
+  <div class="swiper-container ">
+    <div class="swiper-wrapper ">
+      <div class="swiper-slide" ><img src="img/Platinum/12715724_971996279521110_7223444241996626599_n.jpg" width="400px" height="400px" alt="" class="photoCI" ></div>
+      <div class="swiper-slide" ><img src="img/Platinum/12729036_971996586187746_8133178907213560587_n.jpg" width="400px" height="400px"  alt="" class="photoCI" ></div>
+      <div class="swiper-slide" ><img src="img/Platinum/12729333_971996426187762_8347655064229961414_n.jpg"  width="400px" height="400px" alt=""  class="photoCI"  ></div>
+      <div class="swiper-slide" ><img src="img/Platinum/12741870_971996532854418_5661918559823293029_n.jpg" width="400px" height="400px" alt="" class="photoCI" ></div>
+      <div class="swiper-slide" ><img src="img/Platinum/12742577_971995916187813_954333277239517698_n.jpg" width="400px" height="400px" alt=""  class="photoCI" ></div>
+      <div class="swiper-slide" ><img src="img/Platinum/12743821_971995782854493_1564660728459160689_n (1).jpg" width="400px" height="400px" alt="" class="photoCI" ></div>
+      <div class="swiper-slide" ><img src="img/Platinum/12744753_971996076187797_7271867607090567266_n.jpg" width="400px" height="400px" alt=""  class="photoCI" ></div>
+      
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+     loop: true,
+     autoplay: {
+          delay: 1000,
+          disableOnInteraction: false,
+        },
+    });
+  </script>
+<script src="js/java.js"></script>
+</body>
+</html>

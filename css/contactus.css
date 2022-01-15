@@ -1,0 +1,39 @@
+body{
+    background: black;
+}
+/* ==================contact us page ============================= */
+.plan{
+    width: 90%;
+    height: 100vh;
+margin-top: 50px;
+margin-bottom: 100px;
+box-sizing: border-box;
+}
+.nav_contactUS{
+    position: relative;
+    background:rgba(8, 8, 66, 0.932);
+
+}
+.nav_contactUS1{
+    position: relative;
+    background:rgba(76, 76, 223, 0.555);
+
+}
+
+
+
+
+/* ========================================================== */
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }

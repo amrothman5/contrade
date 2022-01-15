@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+</head>
+<body>
+ 
+  
+
+
+    <!-- Swiper -->
+  <div class="swiper-container ">
+    <div class="swiper-wrapper ">
+      <div class="swiper-slide" ><img src="img/ICBR/1 (88).JPG" width="400px" height="400px" alt="" class="photoCI"  ></div>
+      <div class="swiper-slide" ><img src="/img/ICBR/1 (90).JPG" width="400px" height="400px" alt="" class="photoCI" ></div>
+      <div class="swiper-slide" ><img src="/img/ICBR/IMG_0001.JPG" width="400px" height="400px"  alt="" class="photoCI" ></div>
+      <div class="swiper-slide" ><img src="/img/ICBR/IMG_0008.JPG"  width="400px" height="400px" alt=""  class="photoCI"  ></div>
+      <div class="swiper-slide" ><img src="/img/ICBR/IMG_0011.JPG" width="400px" height="400px" alt="" class="photoCI" ></div>
+      <div class="swiper-slide" ><img src="/img/ICBR/IMG_0015.JPG" width="400px" height="400px" alt=""  class="photoCI" ></div>
+      <div class="swiper-slide" ><img src="/img/ICBR/IMG_0020.JPG" width="400px" height="400px" alt=""  class="photoCI" ></div>
+      <div class="swiper-slide" ><img src="/img/ICBR/IMG_0022.JPG" width="400px" height="400px" alt=""  class="photoCI" ></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+     loop: true,
+     autoplay: {
+          delay: 1000,
+          disableOnInteraction: false,
+        },
+    });
+  </script>
+<script src="js/java.js"></script>
+</body>
+</html>
