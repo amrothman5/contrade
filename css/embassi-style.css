@@ -99,6 +99,42 @@ overflow-y: scroll;
     top:200px;
 }
 /* ===========================more image desgin ================*/
+
+@media  (min-width:250px ) and ( max-width: 865px){
+  .location{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:200px;
+}
+.Embassidetails{
+   margin-left: 10px;
+}
+.embassi-image{
+  width:85%;
+  height:85%;
+  border-radius: 10px;
+  padding-left:0px;
+  margin-bottom: 100px;
+}
+.big-img{
+  width: 350px;
+  height: 100vh;
+  border-radius: 10px;
+}
+.embassi-basic1{
+  height: 90vh;
+  width:1500;
+  border-radius:10px;
+}
+}
+
+
+
+
+
+
 /* .container1{
     width: 280px;
     height: 50px;
