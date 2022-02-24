@@ -757,12 +757,23 @@ function Banks16(){
 function closeNav( ){
    var bank1 = document.getElementById("bank1");
    var bank4 = document.getElementById("bank4");
+   var bank5 = document.getElementById("bank5");
    var bank10 = document.getElementById("bank10");
    var bank2 = document.getElementById("bank2");
    var bank3 = document.getElementById("bank3");
+   var bank6 = document.getElementById("bank6");
+   var bank7 = document.getElementById("bank7");
+
+   var bank8 = document.getElementById("bank8");
+
    var bank9 = document.getElementById("bank9");
    var bank13 = document.getElementById("bank13");
    var bank11 = document.getElementById("bank11");
+   var bank12 = document.getElementById("bank12");
+   var bank14 = document.getElementById("bank14");
+
+   var bank15 = document.getElementById("bank15");
+
    var bank16 = document.getElementById("bank16");
 
    document.getElementById("fullScreen").style.width="0px";
@@ -770,18 +781,18 @@ function closeNav( ){
    bank2.style.display="none";
    bank3.style.display="none";
   bank4.style.display="none";
-//   bank5.style.display="none";
-//   bank6.style.display="none";
-//   bank7.style.display="none";
-//   bank8.style.display="none";
+  bank5.style.display="none";
+  bank6.style.display="none";
+  bank7.style.display="none";
+  bank8.style.display="none";
   bank9.style.display="none";
   bank10.style.display="none";
   bank11.style.display="none";
-//   bank12.style.display="none";
+  bank12.style.display="none";
   bank13.style.display="none";
   bank16.style.display="none";
-//   bank14.style.display="none";
-//   bank15.style.display="none";
+ bank14.style.display="none";
+ bank15.style.display="none";
 
 
 }
